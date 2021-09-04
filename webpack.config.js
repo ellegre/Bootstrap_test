@@ -8,7 +8,7 @@ module.exports = {
   entry: './index.js',
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, 'dist'),
   },
   module: {
     rules: [
@@ -26,7 +26,11 @@ module.exports = {
       },
       {
         test: /\.(svg|ico|png|jpeg|gif|jpeg)$/i, type: 'asset/resource'
-      }
+      },
+      {
+        test: /\.html$/,
+        use: ["html-loader"],
+      },
     ]
   },
   plugins: [
