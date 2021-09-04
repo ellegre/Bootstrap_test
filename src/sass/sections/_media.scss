@@ -1,0 +1,9 @@
+.media {
+  h3 {
+    a {
+      &:hover {
+        color: $red;
+      }
+    }
+  }
+}

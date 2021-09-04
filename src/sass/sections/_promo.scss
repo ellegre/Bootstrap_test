@@ -1,0 +1,45 @@
+.promo {
+  padding-top: 80px;
+  &__bottle {
+    background: $black;
+  }
+  &__manifesto {
+    padding-top: 70px;
+    padding-bottom: 40px;
+    h2 {
+      margin-bottom: 20px;
+    }
+    p {
+      font-weight: 300;
+      font-size: 20px;
+      margin-bottom: 10px;
+      @media  screen and (min-width: 768px) {
+        width: 65%;
+        font-size: 22px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  
+  &__moto {
+    font-family: Times, 'Times New Roman', serif;
+  }
+
+  h2 {
+    color: $red;
+    font-family: Times, 'Times New Roman', serif;
+  }
+}
+
+.croix {
+  height: 40vw; 
+  background: url('../../assets/img/grape-field.jpeg') no-repeat center;
+  background-size: cover;
+  img {
+    margin-top: -30px;
+  }
+  @media  screen and (min-width: 768px) {
+    height: 20vw;
+  }
+}

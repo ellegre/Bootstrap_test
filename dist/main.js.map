@@ -1,0 +1,1 @@
+{"version":3,"file":"main.js","mappings":"yBAGAA,SAASC,cAAc,MAAMC,UADZ,yB","sources":["webpack://webpack-lanson/./src/index.js"],"sourcesContent":["import './style.scss'\n\nconst headline = \"Welcome to the webpage\";\ndocument.querySelector(\"h1\").innerText = headline;"],"names":["document","querySelector","innerText"],"sourceRoot":""}
